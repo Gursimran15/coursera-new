@@ -1,0 +1,176 @@
+body{
+	font-family: "Helvetica Neue Custom","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size:17px;
+    background-color:#3F0C1F;
+    color:white; 
+}
+#head-nav{
+	background-color:#D3D3D3;
+	border-radius: 0;
+	border: 0;
+}
+#logo{
+	background:url('../images/logo1.jpg') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin:10px 15px 10px 0;
+}
+.navbar{
+	padding: 25px;
+}
+.navbar-brand h1{
+	font-family:'Lora', serif;
+    font-size:1.5em;
+    font-weight: bold;
+    font-transform:uppercase;
+    text-shadow:1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom:0; 
+    line-height: .75;
+}
+.navbar-brand a:hover , .navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+color:#3F0C1F;
+text-align: center;
+}
+#nav-list a:hover{
+color:#E0E0E0;
+}
+#nav-list a span{
+font-size:1.8em;
+}
+#phone{
+margin-top: 5px;
+}
+#phone a{
+text-align: right;
+bottom-padding:0px;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+	border:1px solid #3F0C1F;
+}
+.container .jumbotron{
+	
+	box-shadow: 0 0 5px #3F0C1F;
+		border:2px solid #3F0C1F;
+
+}
+#Item1-tile , #Item2-tile , #Item3-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position:relative;
+	border:2px solid #3F0C1F;
+	overflow:hidden;
+}
+#Item1-tile:hover , #Item2-tile:hover , #Item3-tile:hover
+{
+box-shadow: 0 1px 5px 1px #cccccc;
+}
+#Item1-tile {
+	background:url(../images/i1.jpg)no-repeat;
+	background-position: center;
+} 
+#Item2-tile {
+	background:url(../images/i3.jpg)no-repeat;
+	background-position: center;
+}
+#Item2-tile {
+	background:url(../images/i2.jpg)no-repeat;
+	background-position: center;
+}
+
+#Item1-tile span , #Item2-tile span, #Item3-tile span
+{
+position: absolute;
+bottom: 0;
+right: 0;
+width:100%;
+text-align:center;
+font-size:1.6em;
+text-transform:uppercase;
+background-color: #000;
+color:#fff;
+opacity: .8;
+}
+@media(min-width: 1200px){
+	.container .jumbotron{
+		background:url(../images/csl1.jpg)no-repeat;
+		height:720px;
+		background-size: 100%;
+			}
+
+}
+@media(min-width:992px) and (max-width:1199px){
+	#logo{
+	background:url('../images/logo2.jpg') no-repeat;
+	width: 100px;
+	height: 100px;
+	margin:5px 5px 5px 0;
+}
+.container .jumbotron{
+		background:url(../images/csm1.jpg)no-repeat;
+		height:550px;
+		background-size: 100%;
+	}
+
+	
+}
+@media(min-width: 768px) and (max-width:991px ){
+	#logo{
+	background:url('../images/logo3.jpg') no-repeat;
+	width: 75px;
+	height: 100px;
+	margin:2px 5px 2px 0;
+}
+	.container .jumbotron{
+		background:url(../images/css1.jpg)no-repeat;
+		height:432px;
+		background-size: 100%;
+			}
+
+}
+@media(max-width:767px){
+	.navbar-brand{
+		padding-top:10px;
+		height: 80px;
+	}
+	.navbar-brand h1{
+		padding-top:10px;
+		font-size: 5vw;
+	}
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
+
+	#collapsable-nav a span{
+		font-size: 1em;
+		padding-right: 5px;
+	}
+	.container .jumbotron{
+		padding:0px;
+		margin-top:30px;
+	}
+#Item1-tile ,#Item2-tile{
+	width:360px;
+	margin:0 auto 15px;
+} 
+}
+@media(max-width: 479px)
+{
+	.navbar-brand h1{
+		padding:5px;
+		font-size: 6vw;
+	}
+	#Item1-tile,#Item2-tile {
+	width: 280px;
+	margin:0 auto 15px;
+}
+
+}
